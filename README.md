@@ -1,37 +1,25 @@
-# Starlight Starter Kit: Basics
+# Nix CN Web
 
-[![Built with Starlight](https://astro.badg.es/v2/built-with-starlight/tiny.svg)](https://starlight.astro.build)
+## Contribution
 
-```
-yarn create astro@latest -- --template starlight
-```
+1. **Root docs serve the zh-CN version** *[MUST]*
+2. **Use sign-off via `git commit -s`** *[MUST]*
+3. **Do not modify the `main` branch for any reason** *[MUST]*
+4. **Do not omit the commit subject for any reason** *[MUST]*
+5. **Describe all changes in the commit message** *[MUST]*
+6. **Rebase before submitting patches** *[MUST]*
+7. **Split commits for large or multi-part changes** *[OPTION]*
+8. **Use OpenPGP/SSH for commit signing** *[OPTION]*
+9. **Have fun contributing :)** *[VERY NECESSARY]*
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+## Toolchain
 
-## 🚀 Project Structure
+- Zed Editor
+- Node 22
+- Yarn v2
+- Cloudflare
 
-Inside of your Astro + Starlight project, you'll see the following folders and files:
-
-```
-.
-├── public/
-├── src/
-│   ├── assets/
-│   ├── content/
-│   │   └── docs/
-│   └── content.config.ts
-├── astro.config.mjs
-├── package.json
-└── tsconfig.json
-```
-
-Starlight looks for `.md` or `.mdx` files in the `src/content/docs/` directory. Each file is exposed as a route based on its file name.
-
-Images can be added to `src/assets/` and embedded in Markdown with a relative link.
-
-Static assets, like favicons, can be placed in the `public/` directory.
-
-## 🧞 Commands
+## Commands
 
 All commands are run from the root of the project, from a terminal:
 
@@ -43,7 +31,3 @@ All commands are run from the root of the project, from a terminal:
 | `yarn preview`         | Preview your build locally, before deploying     |
 | `yarn astro ...`       | Run CLI commands like `astro add`, `astro check` |
 | `yarn astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Check out [Starlight’s docs](https://starlight.astro.build/), read [the Astro documentation](https://docs.astro.build), or jump into the [Astro Discord server](https://astro.build/chat).

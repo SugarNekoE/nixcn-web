@@ -48,7 +48,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@astrojs/mdx@npm:^4.2.3":
+"@astrojs/mdx@npm:^4.2.3, @astrojs/mdx@npm:^4.3.12":
   version: 4.3.12
   resolution: "@astrojs/mdx@npm:4.3.12"
   dependencies:
@@ -419,6 +419,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@expressive-code/plugin-line-numbers@npm:^0.41.3":
+  version: 0.41.3
+  resolution: "@expressive-code/plugin-line-numbers@npm:0.41.3"
+  dependencies:
+    "@expressive-code/core": "npm:^0.41.3"
+  checksum: 10c0/429eb7e0c9cf11e63223a2378b7e5d4e5a16492aa52cf9776e708102949e4d8b006b08b2a1624682655c90dc3ef6116b0673ffd91384d87bddf6598d1355efac
+  languageName: node
+  linkType: hard
+
 "@expressive-code/plugin-shiki@npm:^0.41.3":
   version: 0.41.3
   resolution: "@expressive-code/plugin-shiki@npm:0.41.3"
@@ -435,6 +444,20 @@ __metadata:
   dependencies:
     "@expressive-code/core": "npm:^0.41.3"
   checksum: 10c0/d90e670fdf4863f1f6063215b21353a0f4b6e33c2f59b6f751683deb6f3b5ec1221a78ef46bce78aa01003a3807d738fc454d62df940c3bfb2cb1b08292bbdd9
+  languageName: node
+  linkType: hard
+
+"@fontsource-variable/inter@npm:^5.2.6":
+  version: 5.2.8
+  resolution: "@fontsource-variable/inter@npm:5.2.8"
+  checksum: 10c0/35b46df31c8c18f55f87228acf6297e4dac6cc9f38d0faaafdaf5a40e40c386cf1bfb115fb0fe0dcdb9b7e14f582843693ccf070d9c903072a5b2fc0f8dfde56
+  languageName: node
+  linkType: hard
+
+"@fontsource-variable/jetbrains-mono@npm:^5.2.6":
+  version: 5.2.8
+  resolution: "@fontsource-variable/jetbrains-mono@npm:5.2.8"
+  checksum: 10c0/574e5463b802cfdd6ec8dd16724d2fd5ee38204815729c9dca0f457a417f0a4d32e6ec4ed2dfa0e5a5de5a9b0deaeb9f3c0b49b332763ed40172de43d6b1502f
   languageName: node
   linkType: hard
 
@@ -3660,9 +3683,11 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "nixcn-web@workspace:."
   dependencies:
+    "@astrojs/mdx": "npm:^4.3.12"
     "@astrojs/starlight": "npm:^0.37.0"
     astro: "npm:^5.6.1"
     sharp: "npm:^0.34.2"
+    starlight-theme-galaxy: "npm:^0.5.2"
   languageName: unknown
   linkType: soft
 
@@ -4591,6 +4616,20 @@ __metadata:
   dependencies:
     minipass: "npm:^7.0.3"
   checksum: 10c0/405f3a531cd98b013cecb355d63555dca42fd12c7bc6671738aaa9a82882ff41cdf0ef9a2b734ca4f9a760338f114c29d01d9238a65db3ccac27929bd6e6d4b2
+  languageName: node
+  linkType: hard
+
+"starlight-theme-galaxy@npm:^0.5.2":
+  version: 0.5.2
+  resolution: "starlight-theme-galaxy@npm:0.5.2"
+  dependencies:
+    "@expressive-code/core": "npm:^0.41.3"
+    "@expressive-code/plugin-line-numbers": "npm:^0.41.3"
+    "@fontsource-variable/inter": "npm:^5.2.6"
+    "@fontsource-variable/jetbrains-mono": "npm:^5.2.6"
+  peerDependencies:
+    "@astrojs/starlight": ">=0.34"
+  checksum: 10c0/fad81194ffa1bbb816919df8378ae97e2d4015c1ca1b901eac2ad00cb5f3d965578ba438adba962666b9925cd1f0a9cb3394188ba0e164a37d6f4bc89f1e5f39
   languageName: node
   linkType: hard
 
