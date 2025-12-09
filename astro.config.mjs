@@ -30,7 +30,7 @@ export default defineConfig({
                     href: 'https://git.sne.moe/sugar/nixcn-web',
                 },
             ],
-            sidebar: [],
+            sidebar: ['meetup-2-guide'],
             plugins: [],
         }),
         mdx(),
