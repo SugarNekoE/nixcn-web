@@ -15,11 +15,14 @@
 
 ## Toolchain
 
-- Zed Editor
+- Nix
+- Devenv
+- Direnv
 - Node 22
-- Pnpm 10.24
+- Pnpm 10
 - Corepack
 - Cloudflare
+- Zed Editor
 
 ## Commands
 
