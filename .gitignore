@@ -44,3 +44,7 @@ devenv.local.yaml
 
 # pre-commit
 .pre-commit-config.yaml
+
+# wrangler files
+.wrangler
+.dev.vars
