@@ -1,0 +1,6 @@
+.envrc
+devenv.lock
+devenv.yaml
+devenv.nix
+pnpm-lock.yaml
+*.svg
