@@ -1,8 +1,6 @@
 // @ts-check
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
-import starlightThemeGalaxy from 'starlight-theme-galaxy';
-
 import mdx from '@astrojs/mdx';
 
 // https://astro.build/config
@@ -33,7 +31,7 @@ export default defineConfig({
                 },
             ],
             sidebar: [],
-            plugins: [starlightThemeGalaxy()],
+            plugins: [],
         }),
         mdx(),
     ],
