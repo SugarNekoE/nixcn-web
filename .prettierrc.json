@@ -1,4 +1,13 @@
 {
+    "plugins": ["prettier-plugin-astro"],
+    "overrides": [
+        {
+            "files": "*.astro",
+            "options": {
+                "parser": "astro"
+            }
+        }
+    ],
     "printWidth": 120,
     "tabWidth": 4,
     "useTabs": false,
@@ -11,7 +20,6 @@
     "objectWrap": "preserve",
     "bracketSameLine": false,
     "arrowParens": "always",
-    "parser": "typescript",
     "proseWrap": "preserve",
     "htmlWhitespaceSensitivity": "ignore",
     "vueIndentScriptAndStyle": false,
